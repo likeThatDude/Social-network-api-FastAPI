@@ -1,0 +1,15 @@
+Управление твитами (Tweets Service):
+    GET /api/tweets
+    POST /api/tweets
+    DELETE /api/tweets/<id>
+    POST /api/tweets/<id>/likes
+    DELETE /api/tweets/<id>/likes
+
+Управление пользователями (Users Service):
+    GET /api/users/me
+    POST /api/users/<id>/follow
+    DELETE /api/users/<id>/follow
+
+Управление медиа-файлами (Media Service):
+    POST /api/medias
+

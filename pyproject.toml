@@ -1,0 +1,10 @@
+[tool.black]
+line-length = 79
+exclude = """
+    venv/
+    venv-dev/
+"""
+
+[tool.isort]
+profile = "black"
+line_length = 79
